@@ -1,0 +1,99 @@
+Key,Priority,Severity,Issue Type,Summary,JH COMMENTS,Status,Epic Link,Labels,Acceptance Criteria,Actual Discovery Stage,Resolution,Story Points,Reason for Hold,Created,Component/s,Linked Issues,Sprint,Reporter,Originating Customer,Technical Notes,Date Resolved,Updated,Value Statement,Root Cause,Root Cause Analysis,Temp Defect Injection / Root Cause
+UKPOST-661,P3,,Task,ADK: 625: Post an item: Green background color is disappearing after selecting yes on continueTrans screen.,,Ready for Build,,,,,Unresolved,,,22-12-2023 05:06,ADK 6.2.5 Upgrade,,,Madhavi Yabaigudam,,,,28-12-2023 06:07,,,,
+UKPOST-660,P4,,Task,ADK: 625: Post an item: Recommended services button text is cropped in welsh.,,Ready for Build,,,,,Unresolved,,,20-12-2023 05:57,ADK 6.2.5 Upgrade,,,Madhavi Yabaigudam,,,,22-12-2023 04:40,,,,
+UKPOST-659,P3,,Story,"ADK 625: UI: POST AN ITEM: ""Saturday"" target delivery (black rectangle with white font) for select service screen should be per POL specification (same as ADK 4).",Need to work with Sreelekha ji,In Dev,UKPOST:625:HFE:POST AN ITEM,POST-AN-ITEM,"Based on reference data, this option gets displayed on certain days for certain services.ÿ 
+
+x,,Unresolved,5,,18-12-2023 06:26,ADK 6.2.5 Upgrade,UKPOST-639,,Jivesh Hamal,,,,19-12-2023 03:24,,,,
+UKPOST-658,P3,,Task,"ADK: 625: Post an item: When select button is pressed in the select service type screen, SCO is remaining in the same screen instead of moving to select service screen.",,Ready for Build,,,,,Unresolved,,,18-12-2023 04:07,ADK 6.2.5 Upgrade,,,Madhavi Yabaigudam,,,,20-12-2023 04:45,,,,
+UKPOST-657,P4,,Task,ADK: 625: Post an item: More space is seen between title and grid data in Select service type screen.,,Ready for Build,UKPOST:625:HFE:POST AN ITEM,,,,Unresolved,,,18-12-2023 04:03,ADK 6.2.5 Upgrade,,,Madhavi Yabaigudam,,,,20-12-2023 04:42,,,,
+UKPOST-655,P2,S2,Incident,UKPOST: Store login button disabled in Win10,,In Analysis,,,,SE09 TEST Integration/ System Integration Test (SIT),Unresolved,,,05-12-2023 22:51,ADK 6.2.5 Upgrade,,,Karthik R,,,,06-12-2023 00:54,,,,
+UKPOST-652,P2,S2,Story,UKPOST : Win10 Scripts to support x64,,In Analysis,,,,,Unresolved,,,30-11-2023 23:16,ADK 6.2.5 Upgrade,,,Karthik R,,,,05-12-2023 22:52,,,,
+UKPOST-651,P2,S2,Story,UKPOST : NextGen SCO,,Not Started,,,,,Unresolved,,,30-11-2023 23:14,ADK 6.2.5 Upgrade,,,Karthik R,,,,30-11-2023 23:14,,,,
+UKPOST-649,P3,,Story,ADK 625: HFE: SELECT PAYMENT: WELSH: VAT receipt button screens.,Done. Updated the JIRA and the AC document. ,Ready for Build,ADK625: SELECT PAYMENT (INSERT CASH AND CHILD SCREENS),,"Pre-req: The language selected is WELSH 
+# Be in select payment screen.ÿ 
+# Touch VAT receipt button. Observe the screens.ÿ 
+# ER: [!https://res.cdn.office.net/assets/mail/file-icon/png/docx_16x16.png! AC- VAT receipt screens (JIRA 649).docx|https://ncr.sharepoint.com/:w:/s/UK-POSTGANG/EdCo-dTA7ttFvxxAkQEv4rwB0zQ29bKCQa9wc0vRhNhfJQ?e=RgyxpY]",,Unresolved,3,,28-11-2023 08:01,ADK 6.2.5 Upgrade,UKPOST-609,UK Sprint 13,Jivesh Hamal,,,,12-12-2023 03:46,,,,
+UKPOST-648,P2,S2,Story,UKPOST Scot7 : Create new Branch in Git and Build package,,Not Started,,,,,Unresolved,,,28-11-2023 04:36,ADK 6.2.5 Upgrade,,,Karthik R,,,,04-12-2023 13:32,,,,
+UKPOST-647,P2,S2,Story,UKPOST SCOT7 : Dev Support,,Not Started,,,,,Unresolved,,,28-11-2023 04:26,ADK 6.2.5 Upgrade,,,Karthik R,,,,04-12-2023 13:32,,,,
+UKPOST-645,P3,,Task,ADK: 625: Post an item: Special character getting ignored when used in Enter Posting details screen.,,Ready for Build,,,,,Unresolved,,,27-11-2023 02:29,ADK 6.2.5 Upgrade,,UK Sprint 13,Madhavi Yabaigudam,,,,04-12-2023 13:31,,,,
+UKPOST-640,Not Set,,Story,UKPOST: 625: Pay a bill: Improvement: Ensure all the digits are visible when keying in bill barcode (as it is in ADK 4),Need to work with Sreelekha ji,Ready for Build,UKPOST: ADK 625: PAY A BILL,,"# Select ""Pay a bill"" in scan item screen. 
+# Select ""bill does not scan"" or ""card does not scan"". 
+# Start keying in numbers.ÿ 
+# ER: the text box for entering the bill number should show/display the entire numbers without needing to scroll. {color:#de350b}Length- waiting on POL.ÿ{color}",,Unresolved,2,,22-11-2023 12:01,ADK 6.2.5 Upgrade,"UKPOST-599, UKPOST-641",UK Sprint 13,Jivesh Hamal,,,,04-12-2023 13:31,,,,
+UKPOST-638,P3,,Story,"ADK 625: HFE: SELECT PAYMENT: ""Card/device payment tender"" screen changes to make PIN pad appear in the same line.",Need to work with Sreelekha ji and QA,Not Started,ADK625: SELECT PAYMENT (INSERT CASH AND CHILD SCREENS),,"# Be in select payment screen.ÿ 
+# Touch ""Pay with debit card"" or ""Pay with credit card"".ÿ 
+# Observe the screen and strings.ÿ 
+# ER: The words PIN pad should be displayed in the same line (see attachment for comparison): 
+
+ÿÿÿÿÿÿ *CARD/device payment tender* 
+
+ÿÿÿÿÿÿ Please follow the instructions 
+
+ÿÿÿÿÿÿÿÿÿÿÿÿÿÿ _on the PIN pad_ 
+
+[Note, the first line should remain bold]",,Unresolved,3,,22-11-2023 04:15,ADK 6.2.5 Upgrade,UKPOST-610,UK Sprint 13,Jivesh Hamal,,,,04-12-2023 13:30,,,,
+UKPOST-618,P3,,Story,ADK 625: HFE: Device Error screens should be per POL specifications.,JH,Not Started,UKPOST: ADK 625: HFE Related Changes,,1. Need to compare as many device error screens as possible with ADK 4 and get approved.ÿÿ,,Unresolved,5,,15-11-2023 10:21,ADK 6.2.5 Upgrade,UKPOST-436,UK Sprint 13,Jivesh Hamal,,,,04-12-2023 13:29,,,,
+UKPOST-617,Not Set,,Story,ADK: 625: Post an item: Post-release: Keyboard improvements (making it similar to ADK 4). Affects 1) Destination Details keyboard 2) VAT receipt entry.,Done. Updated the JIRA and the AC document. ,Ready for Build,UKPOST:625:HFE:POST AN ITEM,,[!https://res.cdn.office.net/assets/mail/file-icon/png/docx_16x16.png! AC- Post release- Keyboard Improvements to make it similar to ADK 4 (JIRA 617).docx|https://ncr.sharepoint.com/:w:/s/UK-POSTGANG/EeTS4NuFZVpIpB6fCSrVtR0B8dkfmEnyGD3Qh56zjq23-Q?e=mD7Tuq],,Unresolved,3,,15-11-2023 10:02,ADK 6.2.5 Upgrade,UKPOST-608,UK Sprint 13,Jivesh Hamal,,,,08-12-2023 05:30,,,,
+UKPOST-612,P3,,Story,ADK 625: UI: POST AN ITEM: Scan label screen,Need to work with Sreelekha ji,Ready for Build,UKPOST:625:HFE:POST AN ITEM,POST-AN-ITEM,"ÿ 
+
+ÿ 
+
+Flow for this Jira 
+# POST AN ITEMÿ 
+# PROHIBITED ITEM ? NO 
+# WEIGHÿ 
+# VALUE (UPTO 20)ÿ 
+# DESTINATION (BRITAIN) 
+# TYPE OF ITEM- SMALL PARCEL 
+# SERVICE TYPE (GUARENTEED, SIGNED, STANDARD)-- SIGNED 
+# ENTER DESTINATION DETAIL. 
+# SCAN A LABELÿÿ 
+# Observe the screen.ÿ 
+# ER: the screen should be same as ADK 4 unless stated otherwise. 
+# ER: if the sub-heading does not have a comma and only has one line, no need of a period in the end.ÿ 
+# ER: The screen where label is displayed, should be same as ADK 4 (see attachment) 
+
+ÿ 
+
+x,,Unresolved,5,,14-11-2023 09:21,ADK 6.2.5 Upgrade,UKPOST-460,"UK Sprint 12, UK Sprint 13",Jivesh Hamal,,,,05-12-2023 08:28,,,,
+UKPOST-610,P3,,Story,ADK 625: HFE: SELECT PAYMENT: Functionality: Receipt button should work properly (check/tick= print receipt; cross= no receipt),Need to work with Karthik R,Not Started,ADK625: SELECT PAYMENT (INSERT CASH AND CHILD SCREENS),,"# Be in select payment screen.ÿ 
+# Touch Receipt button 
+## ER: The icon on the button will switch from tick to cross and vice versa.ÿÿ 
+### If it has a cross, then paper receipt should not print, when transaction ends.ÿ 
+### If it has a check/tick mark, then paper receipt should print, when transaction ends.x,,Unresolved,3,,14-11-2023 07:35,ADK 6.2.5 Upgrade,"UKPOST-638, UKPOST-609","UK Sprint 12, UK Sprint 13",Jivesh Hamal,,,,29-11-2023 14:37,,,,
+UKPOST-609,P3,,Story,ADK 625: HFE: SELECT PAYMENT: ENGLISH: VAT receipt button screens.,Done. Updated the JIRA and the AC document. ,Ready for Build,ADK625: SELECT PAYMENT (INSERT CASH AND CHILD SCREENS),,"# Be in select payment screen.ÿ 
+# Touch VAT receipt button. Observe the screens.ÿ 
+# ER: [AC- VAT receipt screens (JIRA 609)|https://ncr.sharepoint.com/:w:/s/UK-POSTGANG/EdECO0cN8PZKkj7HzVLGNg4B-FjCTPxEPkUZB-3xLE_UuQ?e=3Vu6Sy]",,Unresolved,3,,13-11-2023 12:39,ADK 6.2.5 Upgrade,"UKPOST-610, UKPOST-544, UKPOST-649","UK Sprint 12, UK Sprint 13",Jivesh Hamal,,,,08-12-2023 05:29,,,,
+UKPOST-608,Not Set,,Story,ADK: 625: Post an item: Destination Details keyboard improvements.,Done. Updated the JIRA and the AC document. ,Ready for Build,UKPOST:625:HFE:POST AN ITEM,,[AC- Destination Details Keyboard (JIRA 608)|https://ncr.sharepoint.com/:w:/s/UK-POSTGANG/ET14XhE_hOJLq-epOM2ObY0B3wqSMsNdiUxi7eIHyaz91w?e=l1NrFH],,Unresolved,3,,13-11-2023 11:35,ADK 6.2.5 Upgrade,UKPOST-617,"UK Sprint 12, UK Sprint 13",Jivesh Hamal,,,,12-12-2023 02:30,,,,
+UKPOST-602,P3,S3,Incident,UK POST ADK 6.2 Options are not displayed after selecting country.,,In Dev,,,,SE09 TEST Integration/ System Integration Test (SIT),Unresolved,,Waiting for Additional Diag and Logs,10-11-2023 04:36,ADK 6.2.5 Upgrade,,"UK Sprint 12, UK Sprint 13",Raghavendra Gvt,UKPOST,,,29-11-2023 14:37,,,,
+UKPOST-595,Not Set,,Story,UKPOST: ADK 625: STORE MODE SCREENS: Button layout to be vertical (same as ADK 4) and follow same order.,Need to work with Deepika ji,In Dev,UKPOST: ADK 625: UI: STORE MODE SCREENS,STORE-MODE,,,Unresolved,5,,09-11-2023 06:08,ADK 6.2.5 Upgrade,UKPOST-596,"UK Sprint 12, UK Sprint 13",Jivesh Hamal,,,,21-12-2023 01:20,,,,
+UKPOST-592,P3,S3,Incident,"ADK 6.2 Receipt Printer Error is observed in both the Lanes (SSK,SFK)",,In Analysis,,,,SE09 TEST Integration/ System Integration Test (SIT),Unresolved,,,07-11-2023 02:03,ADK 6.2.5 Upgrade,,,Raghavendra Gvt,UKPOST,,,24-11-2023 03:02,,,,
+UKPOST-591,P1,S2,Incident,Post Office: NextGen SCO 7199 Printer Offline,,In Analysis,p,"NextGen, Post_Office, SCO, W10",,SE09 TEST Integration/ System Integration Test (SIT),Unresolved,,,03-11-2023 11:30,ADK 6.2.5 Upgrade,"SSCOI-88261, SSCOADK-17754, SSCOADK-17755, SSCOR6-708","UK Sprint 12, UK Sprint 13",Lavinder Bhogal,,,,04-12-2023 13:34,,,,
+UKPOST-580,P3,,Story,ADK 625: UI: POST AN ITEM: 1) (more than 20) Recommended services screen should have 2)All services screen,Done. Updated the JIRA and the AC document. ,Ready for Build,UKPOST:625:HFE:POST AN ITEM,POST-AN-ITEM,"The pre-req for this Jira is: UKPOST-540 ADK 625: UI: POST AN ITEM: 1) Item Type (large letter, small letter etc.) screen 2)SELECT SERVICE screens - JIRA - SW Shared Services (ncr.com) 
+# POST AN ITEMÿ 
+# PROHIBITED ITEM ? NO 
+# WEIGHÿ 
+# VALUE (More than 20)ÿ 
+# DESTINATION (BRITAIN) 
+# Select one of the item type 
+# Observe the select service screen.ÿ 
+# *ER: [AC- All services, Recommended Services (JIRA 580)|https://ncr.sharepoint.com/:w:/s/UK-POSTGANG/Ee4ZZRUeOsZBteeEdbFm2FkBp4JBY0BPJRqYH876Nvk14Q?e=aXweUt]*",,Unresolved,5,,30-10-2023 12:06,ADK 6.2.5 Upgrade,"UKPOST-579, UKPOST-590","UK Sprint 12, UK Sprint 13",Jivesh Hamal,,,,15-12-2023 05:24,,,,
+UKPOST-569,Not Set,,Epic,UKPOST: ADK 625: UI: STORE MODE SCREENS,,Not Started,,,,,Unresolved,,,26-10-2023 08:50,ADK 6.2.5 Upgrade,"UKPOST-451, UKPOST-476",,Jivesh Hamal,,,,20-11-2023 06:59,,,,
+UKPOST-566,Not Set,,Epic,UKPOST: ADK 625: PAY A BILL,,Not Started,,,,,Unresolved,,,18-10-2023 04:35,ADK 6.2.5 Upgrade,UKPOST-451,,Jivesh Hamal,,,,22-11-2023 12:11,,,,
+UKPOST-560,Not Set,,Epic,ADK625: POL UX Team Recommendations,,Not Started,,,,,Unresolved,,,17-10-2023 14:23,ADK 6.2.5 Upgrade,,,Humayun Zaidi,,,,17-10-2023 14:48,,,,
+UKPOST-554,Not Set,,Story,UKPOST: 625: Need base consultation for POST AN ITEM flows.,,Not Started,UKPOST:625:HFE:POST AN ITEM,,,,Unresolved,,,06-10-2023 09:11,ADK 6.2.5 Upgrade,"UKPOST-557, SSCOB-32070",,Jivesh Hamal,,,,04-12-2023 13:32,,,,
+UKPOST-511,Not Set,,Story,UKPOST: 625: Help button on Returns screen should display the same screen as ADK 4,Need to tell HZ and decide. ,Not Started,UKPOST: ADK 625: Help Button,,,,Unresolved,,,28-08-2023 14:59,ADK 6.2.5 Upgrade,UKPOST-510,,Jivesh Hamal,,,,04-12-2023 13:32,,,,
+UKPOST-509,Not Set,,Epic,UKPOST: ADK 625: Help Button,,Not Started,,,,,Unresolved,,,28-08-2023 14:54,ADK 6.2.5 Upgrade,UKPOST-451,,Jivesh Hamal,,,,01-09-2023 07:24,,,,
+UKPOST-503,P3,S3,Incident,Software crashes on Post Office SCO,,In Analysis,,,,SE14 Customer Production,Unresolved,,,18-08-2023 12:19,"ADK 6.2.5 Upgrade, RFQ-16916 2D Barcode (ADK 4.5)",,,Karthik R,,,,20-08-2023 22:18,,,,
+UKPOST-479,Not Set,,Epic,ADK625: SELECT PAYMENT (INSERT CASH AND CHILD SCREENS),,Not Started,,,,,Unresolved,,,03-08-2023 13:17,ADK 6.2.5 Upgrade,UKPOST-451,,Humayun Zaidi,,,,15-12-2023 06:16,,,,
+UKPOST-478,Not Set,,Epic,Buy Stamps Screens,,Not Started,,,,,Unresolved,,,03-08-2023 13:16,ADK 6.2.5 Upgrade,UKPOST-451,,Humayun Zaidi,,,,01-09-2023 07:54,,,,
+UKPOST-476,Not Set,,Epic,UKPOST:625:HFE:POST AN ITEM,,Not Started,,POST-AN-ITEM,,,Unresolved,,,03-08-2023 12:00,ADK 6.2.5 Upgrade,"UKPOST-451, UKPOST-569, UKPOST-563, UKPOST-564, UKPOST-565",,Jivesh Hamal,,,,18-12-2023 06:26,,,,
+UKPOST-471,Not Set,,Epic,ADK 625: Lane Closed Screen,,Not Started,,,,,Unresolved,,,02-08-2023 14:22,ADK 6.2.5 Upgrade,UKPOST-451,,Humayun Zaidi,,,,17-08-2023 11:42,,,,
+UKPOST-470,Not Set,,Epic,ADK 625: Thank You Screen,,Not Started,,,,,Unresolved,,,02-08-2023 14:21,ADK 6.2.5 Upgrade,,,Humayun Zaidi,,,,07-08-2023 05:26,,,,
+UKPOST-469,Not Set,,Epic,ADK 625: Scan & Bag/ Scan Item Screen,,Not Started,,,,,Unresolved,,,02-08-2023 14:20,ADK 6.2.5 Upgrade,"UKPOST-451, UKPOST-562, UKPOST-561",,Humayun Zaidi,,,,05-12-2023 06:41,,,,
+UKPOST-468,Not Set,,Epic,ADK 625: Attract/Welcome Screen,,Not Started,,,,,Unresolved,,,02-08-2023 14:20,ADK 6.2.5 Upgrade,UKPOST-451,,Humayun Zaidi,,,,01-09-2023 07:24,,,,
+UKPOST-451,Not Set,,Epic,UKPOST: ADK 625: HFE Related Changes,,Not Started,,HFE,,,Unresolved,,,10-07-2023 11:34,ADK 6.2.5 Upgrade,"UKPOST-468, UKPOST-469, UKPOST-471, UKPOST-476, UKPOST-478, UKPOST-479, UKPOST-509, UKPOST-566, UKPOST-569, UKPOST-460, UKPOST-466, UKPOST-482",,Jivesh Hamal,,,,04-12-2023 10:23,,,,
+UKPOST-442,Not Set,,Task,RFQ-16437 Add support for SCOTOpts.{lane number},,In QA,,,,,Fixed,,,29-06-2023 13:30,ADK 6.2.5 Upgrade,,UK Sprint 13,Humayun Zaidi,,,04-Dec-23,11-12-2023 09:15,,,,
+UKPOST-409,Not Set,,Task,Performance Testing on R5 with Core Application,,In QA,,,,,Fixed,,,24-05-2023 08:43,ADK 6.2.5 Upgrade,,"UK Sprint 3, UK Sprint 4, UK Sprint 5, UK Sprint 6, UK Sprint 7, UK Sprint 8, UK Sprint 9, UK Sprint 10, UK Sprint 11, UK Sprint 12, UK Sprint 13",Humayun Zaidi,,,24-Aug-23,29-11-2023 14:36,,,,
+UKPOST-282,P3,S3,Improvement,SSK/SFK hangs occasionally,,In Dev,,,,,Unresolved,,,24-08-2020 00:31,"ADK 6.2.5 Upgrade, RFQ-13984 Deep Dive Analysis",,,Karthik R,UKPOST,,,04-12-2023 13:32,,,,
+Generated at Thu Jan 04 09:17:06 EST 2024 by Jivesh Hamal using Jira 8.20.10#820010-sha1:ace47f9899e9ee25d7157d59aa17ab06aee30d3d. ,,,,,,,,,,,,,,,,,,,,,,,,,,
